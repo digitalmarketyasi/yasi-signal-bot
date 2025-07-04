@@ -1,3 +1,5 @@
+from db import init_db
+init_db()
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from db import (
